@@ -22,6 +22,7 @@
   color: var(--accent-color);
   align-items: center;
   padding: 10px;
+  
 }
 
 .decorated-zone::before {
@@ -89,7 +90,11 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(255, 0, 112, 0.4);
+  border: 1px solid var(--border-color);
+}
+
+.header__theme-menu-button:focus-visible{
+  outline: none;
 }
 
 .header__theme-menu-button:focus-visible::after {
@@ -112,7 +117,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   text-shadow: 4px 4px 0 var(--accent-color);
-  color: #db00ff;
+  color: var(--header-title);
 }
 
 .title-decor {
@@ -184,7 +189,7 @@
 }
 
 .reference-block:focus-visible {
-  border: 1px solid currentColor;
+  outline: 1px solid currentColor;
 }
 
 .grid {

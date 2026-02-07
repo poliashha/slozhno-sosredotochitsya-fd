@@ -9,4 +9,6 @@
   --color-text: #000028;
   --main-color-text: #f1b2ce;
   --bg-image: url(../images/cover-image-dark.png);
+  --header-title: #db00ff;
+  --border-color: rgba(255, 0, 112, 0.4);
 }
