@@ -22,7 +22,6 @@
   color: var(--accent-color);
   align-items: center;
   padding: 10px;
-  color: var(--accent-color);
 }
 
 .decorated-zone::before {
