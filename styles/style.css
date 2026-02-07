@@ -260,7 +260,7 @@
   }
 
   .content {
-    padding: 72px 20px 48px;
+    padding: 60px 20px;
     gap: 80px;
   }
 
@@ -310,9 +310,7 @@
 }
 
 @media (width>=1024px) {
-  .content {
-    padding: 60px 20px;
-  }
+  
   .header__theme-menu-list {
     flex-direction: row;
   }
