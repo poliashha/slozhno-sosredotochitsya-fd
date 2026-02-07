@@ -26,6 +26,10 @@
   color: var(--main-color-text);
 }
 
+.theme-light .decorated-zone {
+  color: var(--main-color-text);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
@@ -47,4 +51,8 @@
   .text-section {
     color: var(--main-color-text);
   }
+
+  .decorated-zone {
+  color: var(--main-color-text);
+}
 }

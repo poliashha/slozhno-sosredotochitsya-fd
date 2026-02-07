@@ -13,3 +13,7 @@
   --header-title: #db00ff;
   --border-color: rgba(255, 0, 112, 0.4);
 }
+
+.theme-dark .header__rec{
+  display: block;
+}

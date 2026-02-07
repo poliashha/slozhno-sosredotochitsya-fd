@@ -1,7 +1,7 @@
 .page {
   background-image: var(--bg-image);
   font-family: var(--font-family);
-  object-position: center;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--main-bg-color);
@@ -15,13 +15,14 @@
 }
 
 .decorated-zone {
-  block-size: 100%;
+  block-size: 100vh;
   min-block-size: 668px;
   display: grid;
   position: relative;
   color: var(--accent-color);
   align-items: center;
   padding: 10px;
+  color: var(--accent-color);
 }
 
 .decorated-zone::before {
@@ -227,7 +228,8 @@
   }
 
   .decorated-title {
-    width: 364px;
+    width: 100%;
+    max-width: 364px;
   }
 
   .decorated-zone::after {
@@ -322,7 +324,8 @@
   }
 
   .decorated-title {
-    width: 491px;
+    width: 100%;
+    max-width: 491px;
   }
 
   .decorated-zone {
