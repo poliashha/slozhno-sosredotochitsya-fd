@@ -17,3 +17,15 @@
 .theme-dark .header__rec { 
   display: block;
 }
+
+.theme-dark .header__theme-menu {
+  color: var(--accent-color);
+}
+
+.theme-dark .text-section {
+  color: var(--accent-color);
+}
+
+.theme-dark .decorated-zone {
+  color: var(--accent-color);
+}
